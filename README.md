@@ -14,10 +14,5 @@ A lightweight, no-frills to-do list application built with **HTML, CSS, and Java
 - **Frontend**: Vanilla HTML, CSS, JavaScript  
 - **Deployment**: Netlify  
 
-## 🚀 Usage  
-1. **Use the live demo** above, or:  
-2. **Run locally**:  
-   ```bash
-   git clone https://github.com/your-username/repo-name.git
-   cd repo-name
-   open index.html
+## 📦 Files  
+`index.html` | `style.css` | `script.js`  
