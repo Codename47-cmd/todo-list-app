@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <title>iOS-Style To-Do App</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="search-bar">
+    <input type="text" id="search-input" placeholder="Search tasks...">
+    <select id="filter-category">
+      <option value="">All Categories</option>
+      <option value="Work">Work</option>
+      <option value="Personal">Personal</option>
+      <option value="Shopping">Shopping</option>
+      <option value="Other">Other</option>
+    </select>
+    <select id="filter-priority">
+      <option value="">All Priorities</option>
+      <option value="High">High</option>
+      <option value="Medium">Medium</option>
+      <option value="Low">Low</option>
+    </select>
+  </div>
+  <div class="container">
+    <div class="app glass">
+      <div class="header">
+        <h1>Tasks</h1>
+        <button id="theme-toggle" aria-label="Toggle theme"><i class="fas fa-moon"></i></button>
+      </div>
+      
+      <div class="stats-section">
+        <span id="total-tasks">Total: 0</span>
+        <span id="completed-tasks">Completed: 0</span>
+        <span id="streak">Streak: 0</span>
+      </div>
+
+      <div class="input-section">
+        <input type="text" id="task-input" placeholder="Add a task..." autocomplete="off">
+        <select id="category-input">
+          <option value="">Category</option>
+          <option value="Work">Work</option>
+          <option value="Personal">Personal</option>
+          <option value="Shopping">Shopping</option>
+          <option value="Other">Other</option>
+        </select>
+        <select id="priority-input">
+          <option value="">Priority</option>
+          <option value="High">High</option>
+          <option value="Medium">Medium</option>
+          <option value="Low">Low</option>
+        </select>
+        <input type="date" id="due-date-input" title="Due date">
+        <button id="add-btn" aria-label="Add task"><i class="fas fa-plus"></i></button>
+      </div>
+
+      <ul id="task-list"></ul>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
