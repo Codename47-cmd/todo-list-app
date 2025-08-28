@@ -6,7 +6,6 @@ A lightweight, no-frills to-do list application built with **HTML, CSS, and Java
 
 ## ✨ Features  
 - Add, complete, and delete tasks  
-- Persistent storage (saves tasks between sessions)  
 - Keyboard-friendly (`Enter` to add tasks)  
 - Mobile-responsive design  
 
